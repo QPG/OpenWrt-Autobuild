@@ -103,7 +103,7 @@ jobs:
     - name: Upload Release
       uses: softprops/action-gh-release@v1
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.WGITHUB_TOKEN }}
       with:
         draft: false
         prerelease: true
